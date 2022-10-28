@@ -296,7 +296,7 @@ function run() {
         "mosquitos"
     );
     classifier.addDocument(
-        "In most parts of the city, dams have been built on canals due to ongoing development projects to alleviate waterlogging. As a result, mosquito breeding is increasing in the bound water.",
+        "In most parts of the city, dams have been built on canals due to ongoing development projects to alleviate water logging. As a result, mosquito breeding is increasing in the bound water.",
         "mosquitos"
     );
     classifier.addDocument(
@@ -367,12 +367,103 @@ function run() {
         "Although there is talk of huge expenditure, there is no visible activity of mosquito eradication activities. As a result, mosquito infestation has increased in the city.",
         "mosquitos"
     );
+    classifier.addDocument(
+        "The unauthorized shops built/constructed on the footpath of the GEC intersection, Bahaddarhat, Asian highway, and Dewanhat area, occupying footpath, which is causing an issue for the visitors and is also affecting the traffic.", "others"
+    );
+    classifier.addDocument(
+        "We are residents of the Agrabad area and have been facing an acute shortage of drinking water for more than a week. Every member of society is disturbed because of the unavailability of water supply which is the basic need of every human being.", "others"
+    );
+    classifier.addDocument(
+        "The present drainage system is so defective that a good shower would create the whole area into a collection of small lakes and pools. The clogging of rainwater in some of these parts of the city becomes as deep as three feet causing waterlogging.", "others"
+    );
+    classifier.addDocument(
+        "We would like to draw your kind attention to the poor maintenance of the streetlights in our locality. There are a few street lights existing in our locality. Most of these are either not working or are in very poor condition providing dim light, which is of little to no use for the inhabitants of this ward.", "others"
+    );
+    classifier.addDocument(
+        "We are getting a supply of dirty and contaminated water for the last 2 months. The supplied water stinks like sewage water and looks unfit for drinking. Due to this severe problem, we are purchasing drinking water from private vendors.", "others"
+    );
+    classifier.addDocument(
+        "People in our locality are suffering a lot due to the faulty pipelines in the sewage system. Because of the sewage problem, we face unhygienic conditions in our area.", "others"
+    );
+    classifier.addDocument(
+        "My complaint is regarding the sweeper assigned to clean the streets in our area. Respected, the sweeper is not at all punctual and does not clean the street a number of days in a week. I apologetically would inform you that the sweeper does not sweep properly and I would request you to kindly look into the same and take some appropriate action.", "others"
+    );
+    classifier.addDocument(
+        "I want to bring your kind attention to the poor sanitary condition in my locality. People have been dumping their waste in various places instead of keeping one fixed place. This careless attitude of people will lead to the breeding of various diseases Such as typhoid fever, dysentery, and food poisoning which will cause big public sanitation.", "others"
+    );
+    classifier.addDocument(
+        "I am writing this letter to inform you that my neighbor, Mr. X, has been creating a nuisance every day. He is an alcoholic and creates a ruckus daily. All the residents of this area are being disturbed by this constant disturbance. such public safety concerns are increasing day by day", "others"
+    );
+    classifier.addDocument(
+        "We would like to draw your kind attention to the lack of enough dispensaries in our locality. There is only one pharmacy in our whole area and we often do not get good service from this.", "others"
+    );
+    classifier.addDocument(
+        "The indiscriminate use of loudspeakers around the clock has made our lives very miserable. Not a single day passes and one can’t escape from the noise pollution.", "others"
+    );
+    classifier.addDocument(
+        "The blaring of loudspeakers at time wedding celebrations adds to the noise in the area. People use the loudspeakers at a high pitch which harms our ears.", "others"
+    );
+    classifier.addDocument(
+        "Due to noise pollution, the patients are unable to take rest. The worst sufferers are students who cannot devote their attention to their studies.", "others"
+    );
+    classifier.addDocument(
+        "My motive is to grab your kind attention towards the issue of air pollution. Recently, I have noticed pollution and a number of gases coming from industries. These gases being hazardous may lead to serious health issues and a hike in air pollution.", "others"
+    );
+    classifier.addDocument(
+        "Most people burn their dumped garbage and plastic in order to get rid of the garbage. I would request you to kindly look into the matter and take some appropriate and strict action against the issue and culprits.", "others"
+    );
+    classifier.addDocument(
+        "In our locality, every fast food stall reuses cooking oil again and again which is hazardous for our health. please take the necessary step to resolve this issue.", "others"
+    );
+    classifier.addDocument(
+        "I live in an area where parking is limited to the people who live here. I would like to make a complaint against the truck drivers who always park in this area.", "others"
+    );
+    classifier.addDocument(
+        "We would like to draw your attention to the need for a playground in our locality. We have many small children as well school-going children in our locality. Due to the absence of any playground, the kids are seen playing on the streets, which is dangerous.", "others"
+    );
+    classifier.addDocument(
+        "This is to inform you that the footpaths of our streets have become camping places for beggars.	", "others"
+    );
+    classifier.addDocument(
+        "I wish to lodge a complaint that a second-hand scooter dealer, opposite my house, often blocks the pavement by parking scooters in a row there.", "others"
+    );
+    classifier.addDocument(
+        "in our locality, there are not enough cemeteries and people are facing difficulties with this issue.", "others"
+    );
+    classifier.addDocument(
+        "I have submitted my birth certificate for name correction, but 4 weeks have passed and I got no feedback for that. my birth certificate number is xyz. I have attached the form in a png image.	", "others"
+    );
+    classifier.addDocument(
+        "In my area, many people are still getting old age allowances for their elderly family members even after passing away. We want your kind attention to cut off these allowances and distribute them to the actual needy.", "others"
+    );
+    classifier.addDocument(
+        "I want to draw the government's attention toward the gradual decay of the public monument located in this area. It is our valuable heritage and national treasure. It is a specimen of great art and architecture. It reminds us of our glorious past.", "others"
+    );
+    classifier.addDocument(
+        "I would like to draw your kind attention to the municipal school in my area. It has a few old building that needs reconstruction.", "others"
+    );
+    classifier.addDocument(
+        "I saw with my own eyes that a poor mother wanted to send some educational documents to her daughter and the staff was completely non-cooperative with her but when a rich person came with an envelope full of money the air of the office changed for him. That is just one basic example of such a case daily if you see there are a hundred cases like this.", "others"
+    );
+    classifier.addDocument(
+        "recently we have noticed an increase in noise pollution in our area because of unplanned street bumps.", "others"
+    );
+    classifier.addDocument(
+        "Illegal occupation of footpath causing traffic jam in epz area.", "others"
+    );
+    classifier.addDocument(
+        "I would like to inform you about the illegal construction of a house opposite to our home. Recently, the government issued a column in the newspaper about illegal property areas of various towns. The plot opposite our house was also mentioned, but recently the construction of a house has begun there.", "others"
+    );
+    classifier.addDocument(
+        "The open drains in the locality spill over even after a small quantity of rain. anyone can fall into the open gutter and it may lead up to the death of the person.", "others"
+    );
 
     classifier.train();
 
     console.log(classifier.classify("streets are getting blocked by cars"));
     console.log(classifier.classify("is there any cleaning staff coming."));
     console.log(classifier.classify("a slender long - legged fly with aquatic larvae.The bite of the bloodsucking female can transmit a number of serious diseases including malaria and encephalitis."));
+    console.log(classifier.classify("illegal occupation of footpaths making no sense."));
 }
 run();
 
