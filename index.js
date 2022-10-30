@@ -464,8 +464,20 @@ function run() {
     console.log(classifier.classify("is there any cleaning staff coming."));
     console.log(classifier.classify("a slender long - legged fly with aquatic larvae.The bite of the bloodsucking female can transmit a number of serious diseases including malaria and encephalitis."));
     console.log(classifier.classify("illegal occupation of footpaths making no sense."));
+
+    classifier.save('classifier.json', function (err, classifier) {
+        // the classifier is saved to the classifier.json file!
+    });
+
 }
-run();
+// run();
+
+natural.BayesClassifier.load('classifier.json', null, function (err, classifier) {
+    console.log(classifier.classify("streets are getting blocked by cars"));
+    console.log(classifier.classify("is there any cleaning staff coming."));
+    console.log(classifier.classify("a slender long - legged fly with aquatic larvae.The bite of the bloodsucking female can transmit a number of serious diseases including malaria and encephalitis."));
+    console.log(classifier.classify("illegal occupation of footpaths making no sense."));
+});
 
 app.get('/', (req, res) => {
     res.send('Classification server is running...')
