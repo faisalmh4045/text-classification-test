@@ -4,25 +4,26 @@ const port = process.env.PORT || 5000;
 var natural = require('natural');
 var classifier = new natural.BayesClassifier();
 
-const data = require("./dataset.json");
+const trainData = require("./train data.json");
 function trainModel() {
-    data.forEach(obj => classifier.addDocument(
+    trainData.forEach(obj => classifier.addDocument(
         obj.key,
         obj.value
     ));
     classifier.train();
 
-    /* classifier.save('classifier1.json', function (err, classifier) {
+    classifier.save('classifier.json', function (err, classifier) {
         // the classifier is saved to the classifier.json file!
-    }); */
+    });
 }
-trainModel();
+// trainModel();
 
+const testData = require("./test data.json");
 natural.BayesClassifier.load('classifier.json', null, function (err, classifier) {
-    console.log(classifier.classify("streets are getting blocked by cars."));
-    console.log(classifier.classify("is there any cleaning staff coming."));
-    console.log(classifier.classify("There is no such place in Chittagong, where mosquito infestation is not an issue."));
-    console.log(classifier.classify("illegal occupation of footpaths making no sense."));
+    console.log("Actual - Predicted");
+    testData.forEach(obj => console.log(
+        obj.value, "-", classifier.classify(obj.key))
+    );
 });
 
 app.get('/', (req, res) => {
